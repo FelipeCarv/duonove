@@ -1,0 +1,99 @@
+body, html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+main, h1, h2, h3, p, ul, li, a{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+li, a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*CSS TABELA*/
+
+.tabela1{
+    width: 450px;
+}
+.tabela2{
+    width: 600px;
+}
+table.steelBlueCols {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px solid #555555;
+    height: 60px;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  table.steelBlueCols td, table.steelBlueCols th {
+    border: 2px solid #000000;
+    padding: 1px 3px;
+  }
+  table.steelBlueCols tbody td {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  table.steelBlueCols thead {
+    background: #8E6AA6;
+    border-bottom: 0px solid #398AA4;
+  }
+  table.steelBlueCols thead th {
+    font-size: 13px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: center;
+  }
+ 
+  /*TABELA SCORE*/
+  table.tabelaScore {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px solid #555555;
+    width: 400px;
+    height: 59px;
+    text-align: center;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    
+  }
+  table.tabelaScore td, table.tabelaScore th {
+    border: 2px solid #000000;
+    padding: 1px 3px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  table.tabelaScore tbody td {
+    font-size: 17px;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+
+  table.tabelaScore td:nth-child(1) {
+    background: #8E6AA6;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  table.tabelaScore td:nth-child(even) {
+    font-size: 24px;
+    font-weight: bold;
+
+  }
