@@ -20,7 +20,7 @@ li, a{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
@@ -43,6 +43,7 @@ table.steelBlueCols {
     text-align: center;
     border-collapse: collapse;
     margin-bottom: 10px;
+    margin: 15px auto;
   }
   table.steelBlueCols td, table.steelBlueCols th {
     border: 2px solid #000000;
@@ -72,6 +73,7 @@ table.steelBlueCols {
     text-align: center;
     border-collapse: collapse;
     box-sizing: border-box;
+    margin: 15px auto;
     
   }
   table.tabelaScore td, table.tabelaScore th {

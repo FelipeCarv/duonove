@@ -30,3 +30,57 @@
     gap: 10px;
     margin: 0;
 }
+
+.introducao-sessao{
+    display: flex;
+    justify-content: space-between;
+    max-width: 650px;
+    align-items: end;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.img-sessao{
+
+    width: 650px;
+    display: block;
+    margin-left: 20px;
+}
+
+.tabelas-sessao{
+   margin-bottom: 60px;
+}
+
+.font-1{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.resumo h2{
+    margin-top: 50px;
+}
+
+.resumo h1{
+    font-size: 24px;
+    margin: 60px 0px;
+}
+
+
+.selo h2{
+    margin: 50px 0px 20px 0px;
+}
+
+.imagem-selo{
+    display: flex;
+    gap: 20px;
+}
+
+.imagem-selo p{
+    margin-top: 10px;
+}
+
+.img-selo{
+    width: 650px;
+    margin: 50px auto;
+    display: block;
+}
